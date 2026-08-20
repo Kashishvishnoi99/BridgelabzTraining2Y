@@ -1,0 +1,21 @@
+Problem PC-1: Prime Number Checker
+
+BEGIN
+ READ N
+   Prime ← TRUE
+   FOR i ← 2 TO √N DO
+
+        IF N MOD i = 0 THEN
+            Prime ← FALSE
+            BREAK
+        END IF
+
+    END FOR
+
+    IF Prime = TRUE THEN
+        PRINT "Prime"
+    ELSE
+        PRINT "Not Prime"
+    END IF
+
+END
