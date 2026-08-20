@@ -1,0 +1,27 @@
+Problem PC-2: Number Digit Reversal
+
+Pseudocode:
+
+START
+
+    Ask the user to enter a number N
+    Read N
+
+    reversed = 0
+
+    WHILE N is greater than 0
+
+        Get the last digit using N MOD 10
+        Store it in digit
+
+        Add digit to the reversed number
+        reversed = reversed * 10 + digit
+
+        Remove the last digit
+        N = N DIV 10
+
+    END While Loop
+
+    Display reversed
+
+ END 
